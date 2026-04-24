@@ -1,8 +1,8 @@
 {
-  "version": "2026.04.24.6",
-  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.24.6/sealed-release-v2026.04.24.6.zip",
-  "sha256": "594f9321107df573da37a9a4d06f72b53fb8f75596013c20cba61b4831139884",
-  "notes": "默认热更新源切换到 sealed-release-feed，并收掉公开更新仓库标识。",
+  "version": "2026.04.24.7",
+  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.24.7/sealed-release-v2026.04.24.7.zip",
+  "sha256": "b3de72eb5684a636b815be8dd10872d790deed6687c3570c68f8ef4a46dddfb0",
+  "notes": "新仓库安装脚本内置默认授权地址，用户部署时无需再手动传激活服务器。",
   "channel": "stable",
-  "published_at": "2026-04-24T13:18:00+08:00"
+  "published_at": "2026-04-24T13:42:00+08:00"
 }
