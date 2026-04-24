@@ -1,0 +1,8 @@
+{
+  "version": "2026.04.24.6",
+  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.24.6/sealed-release-v2026.04.24.6.zip",
+  "sha256": "594f9321107df573da37a9a4d06f72b53fb8f75596013c20cba61b4831139884",
+  "notes": "默认热更新源切换到 sealed-release-feed，并收掉公开更新仓库标识。",
+  "channel": "stable",
+  "published_at": "2026-04-24T13:18:00+08:00"
+}
