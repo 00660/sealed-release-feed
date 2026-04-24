@@ -367,9 +367,6 @@ print_summary() {
   log "version: ${PACKAGE_VERSION}"
   log "install dir: ${INSTALL_DIR}"
   log "panel url: http://${host_ip}:${web_port}/"
-  if [ -n "${LICENSE_API_URL}" ]; then
-    log "license api: ${LICENSE_API_URL}"
-  fi
 }
 
 main() {
