@@ -31,7 +31,6 @@ Usage:
 
 Options:
   --install-dir DIR          Install to DIR. Default: /opt/sealed-release
-  --license-api-url URL      Override the built-in remote license API
   --web-port PORT            Override panel port
   --aux8787-port PORT        Override aux 8787 port
   --aux8788-port PORT        Override aux 8788 port
@@ -43,11 +42,10 @@ Examples:
   curl -fsSL https://github.com/00660/sealed-release-feed/raw/refs/heads/main/install.sh | sudo bash -s --
 
   curl -fsSL https://github.com/00660/sealed-release-feed/raw/refs/heads/main/install.sh | \
-    sudo bash -s -- --license-api-url https://your-license-api.example --web-port 8790
+    sudo bash -s -- --web-port 8790
 
 Environment overrides:
   APP_INSTALL_DIR
-  APP_LICENSE_API_URL
   APP_WEB_PORT
   APP_AUX8787_PORT
   APP_AUX8788_PORT
