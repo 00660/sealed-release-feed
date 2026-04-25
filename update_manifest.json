@@ -1,8 +1,8 @@
 {
-  "version": "2026.04.24.7",
-  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.24.7/sealed-release-v2026.04.24.7.zip",
-  "sha256": "b3de72eb5684a636b815be8dd10872d790deed6687c3570c68f8ef4a46dddfb0",
-  "notes": "新仓库安装脚本内置默认授权地址，用户部署时无需再手动传激活服务器。",
+  "version": "2026.04.25.1",
+  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.25.1/sealed-release-v2026.04.25.1.zip",
+  "sha256": "337493bd3b26ea89c151aa8d067ec7f7ffa4c131f0ca413cbf47d5d2448e0997",
+  "notes": "导入入口、代理配置与持久化细节修复。",
   "channel": "stable",
-  "published_at": "2026-04-24T13:42:00+08:00"
+  "published_at": "2026-04-25T17:30:00+08:00"
 }
