@@ -1,8 +1,8 @@
 {
-  "version": "2026.04.25.1",
-  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.25.1/sealed-release-v2026.04.25.1.zip",
-  "sha256": "337493bd3b26ea89c151aa8d067ec7f7ffa4c131f0ca413cbf47d5d2448e0997",
-  "notes": "导入入口、代理配置与持久化细节修复。",
+  "version": "2026.04.26.1",
+  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.26.1/sealed-release-v2026.04.26.1.zip",
+  "sha256": "cdee62dd76164e2c3fbbc80b4af383a771761311e68a18f094c8ea3b1d309378",
+  "notes": "收信守护进程、轮询调度与日志展示修复。",
   "channel": "stable",
-  "published_at": "2026-04-25T17:30:00+08:00"
+  "published_at": "2026-04-26T18:40:00+08:00"
 }
