@@ -7,7 +7,7 @@ REPO_BRANCH="main"
 MANIFEST_NAME="update_manifest.json"
 MANIFEST_URL="https://github.com/${REPO_OWNER}/${REPO_NAME}/raw/refs/heads/${REPO_BRANCH}/${MANIFEST_NAME}"
 DEFAULT_INSTALL_DIR="/opt/sealed-release"
-DEFAULT_LICENSE_API_URL="https://hme-license-signer-dev.pages.dev"
+DEFAULT_LICENSE_API_URL="https://hme.leohome.site:28443,http://58.87.90.225:28081/hme-license,https://hme-license-signer-dev.pages.dev"
 
 INSTALL_DIR="${APP_INSTALL_DIR:-${DEFAULT_INSTALL_DIR}}"
 LICENSE_API_URL="${APP_LICENSE_API_URL:-${DEFAULT_LICENSE_API_URL}}"
@@ -31,6 +31,7 @@ Usage:
 
 Options:
   --install-dir DIR          Install to DIR. Default: /opt/sealed-release
+  --license-api-url URLS     Override activation API URLs, comma-separated
   --web-port PORT            Override panel port
   --aux8787-port PORT        Override aux 8787 port
   --aux8788-port PORT        Override aux 8788 port
@@ -46,6 +47,7 @@ Examples:
 
 Environment overrides:
   APP_INSTALL_DIR
+  APP_LICENSE_API_URL
   APP_WEB_PORT
   APP_AUX8787_PORT
   APP_AUX8788_PORT
