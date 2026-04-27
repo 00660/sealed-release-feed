@@ -1,8 +1,8 @@
 {
-  "version": "2026.04.27.1",
-  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.27.1/sealed-release-v2026.04.27.1.zip",
-  "sha256": "e9cfc5f0ef3dfc88cbdc86771e8b300327dc218c50f90c0ce2edce5c3f4c484b",
-  "notes": "修复 Apple ID 收信配置保存不落盘、IMAP 监听挂载与相关面板状态问题。",
+  "version": "2026.04.27.7",
+  "package_url": "https://github.com/00660/sealed-release-feed/releases/download/v2026.04.27.7/sealed-release-v2026.04.27.7.zip",
+  "sha256": "c4edbe141a66b02b812a9e0abebdcef129d923ed9ed0b8522a1276c53dcc1538",
+  "notes": "改进稳定性与兼容性，修复若干已知问题。",
   "channel": "stable",
-  "published_at": "2026-04-27T00:45:00+08:00"
+  "published_at": "2026-04-27T17:22:55+08:00"
 }
